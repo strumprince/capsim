@@ -1,0 +1,440 @@
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,div,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,div{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+/*Base*/
+html {
+  font-size: 1em;
+  line-height: inherit;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  margin: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  max-width: 43em;
+  overflow-wrap: break-word;
+}
+
+header {
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background-color: blue;
+  padding: 1em;
+  /*font-size:1.1em; font-family: Times; font-weight: bold; font-style: italic;*/
+}
+
+hr {
+  margin: 1em;
+}
+
+h1 {
+  color: black;
+  margin-bottom: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+h2 {
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background-color: blue;
+  padding: 1em;
+  
+}
+
+h3 {
+  color: black;
+  margin: 0.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
+h4 {
+  margin-left: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0.5em;
+}
+
+subfooter {
+  font-size: 0.75em;
+  margin-left: 43.5%;
+  color: gray;
+}
+div.recipe subfooter {
+  margin-left: 41.5%;
+}
+
+/* TEXT DECORATION */
+i {
+  font-style: italic;
+  font-size: 0.925em;
+}
+
+code {
+  color: white;
+  font-family: monospace;
+  background: blue;
+}
+
+blockquote {
+  color: darkgray;
+  font-family: sans-serif;
+  font-style: italic;
+  margin: 1em;
+}
+
+bold {
+  font-weight: bold;
+}
+
+u {
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+  color: grey;
+}
+
+p.dl {
+  margin-right: 1em;
+  text-align: right;
+  font-size: 0.925em;
+  color: darkgray;
+}
+
+/*HYPERLINKS*/
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+header a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1 a, h2 a, h3 a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 a:hover, h3 a:hover {
+  text-decoration: none;
+}
+
+blockquote::after, blockquote::before, q::after, q::before {
+  content: "''";
+}
+
+
+/* IMAGES */
+figure {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid blue;
+  padding: 0.5em;
+  padding-bottom: 1em;
+
+  max-height: 15em;
+  max-width: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+figcaption {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0.5em;
+}
+
+img {
+  max-height: 14em;
+  max-width: 9em;
+  margin: auto;
+  margin-top: 0.25em;
+}
+
+/* HIGHLIGHT */
+::-moz-selection, ::selection { color: white; background: blue; }
+a::selection { color: white; background: black; }
+header a::-moz-selection, header a::selection { color: white; background: black; }
+
+
+/* LISTS */
+li {
+  margin-left: 1em;
+}
+
+li p {
+  margin-left: 0.01em;
+}
+
+ol {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  list-style-type: decimal;
+}
+
+#toc ol ol {
+  list-style-type: lower-alpha;
+  margin-top: 0.3em;
+  margin-left: 0.25em;
+  font-size: 0.95em;
+
+}
+
+ol li {
+  text-decoration: none;
+}
+
+
+ul {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  list-style-type: circle;
+}
+
+div.border li, div.recipe li {
+  margin-bottom: 0.25em;
+}
+
+
+div.recipe i {
+  color: darkgray;
+}
+
+div.frontpage li {
+  margin-bottom: 0.18em;
+}
+
+div.
+
+#toc li {
+  margin-bottom: 0.1em;
+}
+
+dl {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+dl.rules dt {
+  text-decoration: underline;
+}
+
+ul.roman {
+  list-style-type: lower-roman;
+}
+
+ul.links {
+  list-style-type: circle;
+}
+
+ul p {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+ul li p {
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+}
+
+ul ul {
+  margin-top: 0.1em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+ul h {
+  text-decoration: underline;
+  margin-left: 1em;
+}
+
+article ul {
+  margin-left: 0.5em;
+}
+
+dl {
+  margin-left: 0.5em;
+}
+
+dl.def dt {
+  margin-left: 0.5em;
+  font-weight: bold;
+  display: inline;
+  float: left;
+  clear: left;
+}
+
+dl.def dd::after {
+  content: ": ";
+}
+
+dl.bold dt{
+  font-weight: bold;
+}
+dl.bold {
+  margin-left: 1.5em;
+}
+dl.bold dd {
+  margin-top: 0.25em;
+}
+
+dd {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* BORDERS */
+.border {
+  border: 1px solid blue;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.border-bottom {
+  border: 1px solid blue;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.frontpage, .recipe {
+  border: 1px solid blue;
+  padding: 1em;
+  max-width: 20em;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#toc, #appendix {
+  max-width: 22.5em;
+  margin: auto;
+}
+
+#appendix {
+  margin-top: 1.5em;
+}
+
+hr {
+  color: lightblue;
+  size: 1px;
+}
+
+/* COLUMNS */
+div.leftx {
+  float: left;
+  position: absolute;
+  border: 1px solid blue;
+  padding: 1em;
+  margin-top: 1em;
+  margin-left: 10%;
+}
+
+div.rightx {
+  float: right;
+  position: absolute;
+  margin-left: 30%;
+  border: 1px solid blue;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+/* MOBILE RESPONSIVE */
+/*@media screen and (max-width: 200px) {
+  body {
+word-break: break-all;
+}
+}*/
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 0.95em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .frontpage, .recipe {
+    margin: auto;
+  }
+  ul.ingredients {
+    font-size: 0.85em;
+  }
+  ul {
+    list-style-type: circle;
+  }
+  subfooter {
+    margin-left: 41.5%;
+  }
+  div.recipe subfooter {
+    margin-left: 40%;
+  }
+
+}
+/* 450 - 650px
+body {
+  font-size: 1em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul.ingredients {
+  font-size: 0.9em;
+}
+
+subfooter {
+  margin-left: 45.5%;
+}
+div.recipe subfooter {
+  margin-left: 41.5%;
+
+}
+*/
+
+@media screen and (min-width: 650px) {
+  ul.ingredients {
+    font-size: 0.95em;
+  }
+
+  subfooter {
+    margin-left: 45.5%;
+  }
+  div.recipe subfooter {
+    margin-left: 41.5%;
+  }
+
+}
+
+@media screen and (min-width: 55em) {
+  body {
+    margin: auto;
+    width: 100%;
+  }
+  subfooter {
+    margin-left: 46.5%;
+  }
+  div.recipe subfooter {
+    margin-left: 41.5%;
+  }
+}
