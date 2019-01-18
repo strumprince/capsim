@@ -24,33 +24,34 @@ body {
 header {
   color: white;
   margin-top: 2em;
-  margin-bottom: 1em;
   background-color: blue;
   padding: 1em;
+  text-transform: uppercase;
+  text-align: center;
   /*font-size:1.1em; font-family: Times; font-weight: bold; font-style: italic;*/
 }
 
 hr {
-  margin: 1em;
+  margin-top: 1.5em;
 }
 
 h1 {
-  color: black;
-  margin-bottom: none;
+  color: white;
+  margin-top: 1.5em;
+  background-color: blue;
+  padding: 1em;
   text-transform: uppercase;
   font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
 }
 
 
 h2 {
   color: white;
-  margin-top: 2em;
+  margin-top: 1.5em;
   margin-bottom: 1em;
   background-color: blue;
   padding: 1em;
-  
+
 }
 
 h3 {
@@ -71,6 +72,7 @@ h4 {
 
 p {
   margin: 0.5em;
+  padding-right: 1em;
 }
 
 subfooter {
@@ -186,80 +188,28 @@ header a::-moz-selection, header a::selection { color: white; background: black;
 /* LISTS */
 li {
   margin-left: 1em;
+  margin-right: 1em;
 }
 
-li p {
-  margin-left: 0.01em;
-}
+
 
 ol {
-  margin-top: 0.5em;
-  margin-left: 0.5em;
+  margin-left: 2em;
   list-style-type: decimal;
 }
-
-#toc ol ol {
-  list-style-type: lower-alpha;
-  margin-top: 0.3em;
-  margin-left: 0.25em;
-  font-size: 0.95em;
-
-}
-
-ol li {
-  text-decoration: none;
-}
-
-
-ul {
-  margin-top: 0.5em;
+ol ol {
   margin-left: 0.5em;
-  list-style-type: circle;
+  list-style-type: lower-latin;
 }
-
-div.border li, div.recipe li {
-  margin-bottom: 0.25em;
-}
-
-
-div.recipe i {
-  color: darkgray;
-}
-
-div.frontpage li {
-  margin-bottom: 0.18em;
-}
-
-div.
-
-#toc li {
-  margin-bottom: 0.1em;
-}
-
-dl {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-dl.rules dt {
-  text-decoration: underline;
-}
-
-ul.roman {
+ol ol ol {
+  margin-left: 0.5em;
   list-style-type: lower-roman;
 }
 
-ul.links {
-  list-style-type: circle;
-}
-
-ul p {
+ul {
   margin-top: 0.5em;
-  margin-bottom: 1em;
-}
-
-ul li p {
-  margin-top: 0.25em;
-  margin-bottom: 1em;
+  margin-left: 2em;
+  list-style-type: circle;
 }
 
 ul ul {
@@ -267,51 +217,11 @@ ul ul {
   margin-left: 0.5em;
   margin-bottom: 0.5em;
 }
-ul h {
-  text-decoration: underline;
-  margin-left: 1em;
-}
-
-article ul {
-  margin-left: 0.5em;
-}
-
-dl {
-  margin-left: 0.5em;
-}
-
-dl.def dt {
-  margin-left: 0.5em;
-  font-weight: bold;
-  display: inline;
-  float: left;
-  clear: left;
-}
-
-dl.def dd::after {
-  content: ": ";
-}
-
-dl.bold dt{
-  font-weight: bold;
-}
-dl.bold {
-  margin-left: 1.5em;
-}
-dl.bold dd {
-  margin-top: 0.25em;
-}
-
-dd {
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-}
 
 /* BORDERS */
 .border {
   border: 1px solid blue;
-  padding: 1em;
-  margin-top: 1em;
+  padding-left: 1em;
 }
 
 .border-bottom {
