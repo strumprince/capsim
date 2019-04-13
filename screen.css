@@ -53,9 +53,7 @@ h2 {
   background-color: blue;
   padding: 1em;
   text-align: center;
-    text-transform: uppercase;
-
-
+  text-transform: uppercase;
 }
 
 h3 {
@@ -164,7 +162,7 @@ figure {
   max-width: 10em;
   margin: auto;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 figcaption {
