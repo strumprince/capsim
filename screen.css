@@ -53,6 +53,8 @@ h2 {
   background-color: blue;
   padding: 1em;
   text-align: center;
+    text-transform: uppercase;
+
 
 }
 
@@ -181,6 +183,10 @@ img {
   max-width: 9em;
   margin: auto;
   margin-top: 0.25em;
+}
+code {
+  font-family: monospace;
+  text-align: center;
 }
 
 /* HIGHLIGHT */
