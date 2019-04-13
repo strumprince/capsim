@@ -49,7 +49,7 @@ h1 {
 h2 {
   color: white;
   margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   background-color: blue;
   padding: 1em;
   text-align: center;
@@ -184,6 +184,7 @@ code {
   font-family: monospace;
   text-align: center;
   font-weight: normal;
+  font-size: 1.1em;
 }
 code strong {
   color: orange;
