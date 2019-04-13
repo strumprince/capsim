@@ -18,7 +18,7 @@ body {
   margin-right: 10%;
   margin-bottom: 2em;
   background-color: white;
-  max-width: 43em;
+  max-width: 37em;
   overflow-wrap: break-word;
 }
 
@@ -52,6 +52,7 @@ h2 {
   margin-bottom: 1em;
   background-color: blue;
   padding: 1em;
+  text-align: center;
 
 }
 
@@ -59,7 +60,7 @@ h3 {
   color: black;
   margin: 0.5em;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 h4 {
@@ -88,6 +89,9 @@ div.recipe subfooter {
 i {
   font-style: italic;
   font-size: 0.925em;
+}
+strong {
+  font-weight: bold;
 }
 
 code {
