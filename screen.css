@@ -161,11 +161,9 @@ figure {
   padding: 0.5em;
   padding-bottom: 0.5em;
 
-  max-height: 15em;
-  max-width: 10em;
+  max-height: 30em;
+  max-width: 20em;
   margin: auto;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
 }
 
 figcaption {
@@ -175,8 +173,8 @@ figcaption {
 }
 
 img {
-  max-height: 14em;
-  max-width: 9em;
+  max-height: 28em;
+  max-width: 18em;
   margin: auto;
   margin-top: 0.25em;
 }
