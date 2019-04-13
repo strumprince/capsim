@@ -184,7 +184,9 @@ code {
   font-family: monospace;
   text-align: center;
 }
-
+code strong {
+  color: orange;
+}
 /* HIGHLIGHT */
 ::-moz-selection, ::selection { color: white; background: blue; }
 a::selection { color: white; background: black; }
