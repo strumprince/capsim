@@ -72,7 +72,7 @@ h4 {
   text-transform: uppercase;
 }
 
-ul hr { width: 35%; }
+ul hr { width: 35%; margin-left: 2em; }
 
 p {
   margin: 0.5em;
@@ -164,7 +164,7 @@ figure {
   max-width: 20em;
   margin: auto;
   margin-top: 1em;
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 figcaption {
@@ -174,7 +174,7 @@ figcaption {
 }
 
 img {
-  padding:auto;
+  padding: 1em;
   max-height: 28em;
   max-width: 18em;
   margin: auto;
